@@ -9,11 +9,11 @@
 }
 
 .gradient-instagram {
-  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #FF6B35 0%, #FF8C42 25%, #FF6B35 50%, #FF8C42 75%, #FF6B35 100%);
 }
 
 .gradient-text-instagram {
-  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #FF6B35 0%, #FF8C42 25%, #FF6B35 50%, #FF8C42 75%, #FF6B35 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

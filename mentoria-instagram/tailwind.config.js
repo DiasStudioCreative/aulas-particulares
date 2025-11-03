@@ -10,10 +10,10 @@ module.exports = {
   	extend: {
   		colors: {
   			instagram: {
-  				pink: '#E1306C',
-  				purple: '#833AB4',
-  				orange: '#F77737',
-  				yellow: '#FCAF45'
+  				primary: '#FF6B35',
+  				light: '#FF8C42',
+  				dark: '#E55A2B',
+  				orange: '#FF6B35'
   			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -60,7 +60,19 @@ module.exports = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		screens: {
+			'3xl': '1920px',
+			'2xl': '1536px',
+			'xl': '1280px',
+			'lg': '1024px',
+			'md': '768px',
+			'sm': '640px',
+			'xs': '480px',
+			'2xs': '320px',
+			'3xs': '240px',
+			'4xs': '160px',
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
